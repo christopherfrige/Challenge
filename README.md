@@ -9,9 +9,7 @@ Este repositório abriga o desafio proposto no arquivo docs/**problem.md**.
 
 ## Ingestão de dados
 
-Para fazer os testes com os dados do problema, utilizou-se um arquivo **.json** para entrada de dados.
-
-Dessa forma, foi feito a leitura e o processamento de seus dados, como é possível observar no script **data_loader.py**. 
+Para fazer os testes com as informações do problema, utilizou-se um arquivo **.json** como banco de dados. Assim, foi feito a leitura e o processamento de seus dados, como é possível observar no script **data_loader.py**. 
 
 Com isso, gerou-se objetos de acordo com as chaves principais _("motoboys", "stores", "orders")_ do arquivo, criando um objeto da classe Motoboy, Store, ou Order, respectivamente.
 
@@ -29,7 +27,8 @@ Como proposto no problema, para executar deve haver duas possibilidades:
 <br>
 
     * Passando apenas o motoboy (com argumento)
-        - O output será APENAS o motoboy com o ID escolhido.
+        - O output será APENAS o motoboy com o ID escolhido;
+        - No caso desse problema, os IDs vão do número 1 ao 5.
 
 Dessa forma, cada uma dessas abordagens podem ser feitas da seguinte maneira no terminal:
 
