@@ -1,0 +1,113 @@
+{
+    "motoboys": [
+        {
+            "id": 1,
+            "name": "Moto 1",
+            "deliveryFee": 2,
+            "storeExclusivity": null
+        },
+        {
+            "id": 2,
+            "name": "Moto 2",
+            "deliveryFee": 2,
+            "storeExclusivity": null
+        },
+        {
+            "id": 3,
+            "name": "Moto 3",
+            "deliveryFee": 2,
+            "storeExclusivity": null
+        },
+        {
+            "id": 4,
+            "name": "Moto 4",
+            "deliveryFee": 2,
+            "storeExclusivity": 1
+        },
+        {
+            "id": 5,
+            "name": "Moto 5",
+            "deliveryFee": 3,
+            "storeExclusivity": null
+        }
+    ],
+    "stores": [
+        {
+            "id": 1,
+            "name": "Loja 1",
+            "comissionPercentage": 0.05
+        },
+        {
+            "id": 2,
+            "name": "Loja 2",
+            "comissionPercentage": 0.05
+        },
+        {
+            "id": 3,
+            "name": "Loja 3",
+            "comissionPercentage": 0.15
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "value": 50,
+            "store": 1,
+            "motoboy": null
+        },
+        {
+            "id": 2,
+            "value": 50,
+            "store": 1,
+            "motoboy": null
+        },
+        {
+            "id": 3,
+            "value": 50,
+            "store": 1,
+            "motoboy": null
+        },
+        {
+            "id": 4,
+            "value": 50,
+            "store": 2,
+            "motoboy": null
+        },
+        {
+            "id": 5,
+            "value": 50,
+            "store": 2,
+            "motoboy": null
+        },
+        {
+            "id": 6,
+            "value": 50,
+            "store": 2,
+            "motoboy": null
+        },
+        {
+            "id": 7,
+            "value": 50,
+            "store": 2,
+            "motoboy": null
+        },
+        {
+            "id": 8,
+            "value": 50,
+            "store": 3,
+            "motoboy": null
+        },
+        {
+            "id": 9,
+            "value": 50,
+            "store": 3,
+            "motoboy": null
+        },
+        {
+            "id": 10,
+            "value": 100,
+            "store": 3,
+            "motoboy": null
+        }
+    ]
+}
